@@ -1,3 +1,7 @@
+if(get_url_info("cate_no") < 0) {
+    location.replace('m_index.html')
+}
+
 let cate_no = get_url_info("cate_no");
 
 

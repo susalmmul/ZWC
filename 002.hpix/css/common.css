@@ -1,0 +1,130 @@
+body {margin: 0;}
+a {text-decoration: none; color: inherit;}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* 헤더 */
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+    border-bottom: 0.5px solid rgb(40, 40, 40);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+    transition: all 0.3s;
+}
+
+.logo {
+    width: 100px;
+    height: 70%;
+    background: url(../img/logo.svg) no-repeat center / contain;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+}
+.menu_li {
+    display: inline-block;
+    height: 100%;
+    line-height: 40px;
+
+    padding: 0 15px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+.menu_li:hover {
+    color: #ddd;
+}
+.search {
+    background: url(../img/search_icon.png) no-repeat center / cover;
+    background-position-y: 10px;
+}
+
+/* 메뉴 */
+.menu_pan_box {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+
+    background-color: #fff;
+    border-top: 0.5px solid #000;
+    border-bottom: 0.5px solid #000;
+    box-sizing: border-box;
+
+    position: fixed;
+    left: 0;
+    top: 40px;
+
+    display: flex;
+    align-items: baseline;
+
+    font-size: 13px;
+    
+    transition: all 0.3s;
+}
+.menu_pan_box_act {
+    height: 300px;
+}
+.menu_pan_box:hover {
+    height: 300px;
+}
+.menu_large_cate, .menu_small_cate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    height: 100%;
+
+    padding: 10px;
+    
+    display: none;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.menu_large_cate {
+    width: 40%;
+    border-right: 0.5px solid #ddd ;
+
+    flex-basis: 350px;
+    display: flex;
+
+    border-right: 0.5px solid #ddd ;
+}
+.menu_large_cate:first-child >.pan_li:first-child,
+.menu_large_cate:first-child >.pan_li:nth-child(2) {
+    color: firebrick;
+    font-weight: 500;
+}
+.menu_small_cate {
+    width: 60%;
+}
+.pan_li {
+    width: calc(100% / 3);
+    padding: 10px 20px;
+    transition: all 0.2s;
+}
+.pan_li:hover {
+    color: #ddd;
+}

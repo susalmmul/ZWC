@@ -1,3 +1,7 @@
+if(get_url_info("cate_no") < 0) {
+    location.replace('m_index.html')
+}
+
 
 /* //////////////////// 상세 정보 ///////////////////// */
 

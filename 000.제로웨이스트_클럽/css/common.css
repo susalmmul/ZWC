@@ -191,6 +191,6 @@ a {text-decoration: none; color: inherit; display: inline-block;}
 @media screen and (max-width: 1440px) {
 
     .item_box .img_box {
-        height: 298px;
+        /* height: 298px; */
     }
 }
