@@ -1,0 +1,1456 @@
+{
+  "sftp://bitstudy@bitstudy.cafe24.com": {
+    "www": {
+      "su": {
+        "js": {},
+        "db": {},
+        "img": {},
+        "deal.html": {
+          "type": "-",
+          "size": 14043,
+          "lmtime": 0,
+          "modified": true
+        },
+        "index_2.html": {
+          "type": "-",
+          "size": 12198,
+          "lmtime": 0,
+          "modified": true
+        },
+        "shop.html": {
+          "type": "-",
+          "size": 9206,
+          "lmtime": 0,
+          "modified": true
+        },
+        "css": {},
+        "index.html": {
+          "type": "-",
+          "size": 6610,
+          "lmtime": 0,
+          "modified": true
+        },
+        ".vscode": {}
+      }
+    },
+    "home": {
+      "hosting_users": {
+        "bitstudy": {
+          "www": {
+            "su": {
+              "js": {
+                "index_2.js": {
+                  "type": "-",
+                  "size": 5134,
+                  "lmtime": 1653457466000,
+                  "modified": true
+                },
+                "deal.js": {
+                  "type": "-",
+                  "size": 1241,
+                  "lmtime": 1653630450098,
+                  "modified": true
+                },
+                "index.js": {
+                  "type": "-",
+                  "size": 778,
+                  "lmtime": 0,
+                  "modified": true
+                },
+                "common.js": {
+                  "type": "-",
+                  "size": 2753,
+                  "lmtime": 0,
+                  "modified": true
+                },
+                "index_load_list.js": {
+                  "type": "-",
+                  "size": 21693,
+                  "lmtime": 1653618469908,
+                  "modified": true
+                },
+                "shop.js": {
+                  "type": "-",
+                  "size": 1690,
+                  "lmtime": 1653634234383,
+                  "modified": true
+                }
+              },
+              "db": {
+                "index2.php": {
+                  "type": "-",
+                  "size": 1203,
+                  "lmtime": 1653630032086,
+                  "modified": false
+                },
+                "db_conn.php": {
+                  "type": "-",
+                  "size": 95,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "meno.html": {
+                  "type": "-",
+                  "size": 6491,
+                  "lmtime": 1653625753244,
+                  "modified": false
+                },
+                "shop.php": {
+                  "type": "-",
+                  "size": 1084,
+                  "lmtime": 1653631983271,
+                  "modified": false
+                }
+              },
+              "img": {
+                "logo.svg": {
+                  "type": "-",
+                  "size": 2836,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "search_icon.png": {
+                  "type": "-",
+                  "size": 748,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "insta_link.png": {
+                  "type": "-",
+                  "size": 2811,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "welcome_page": {
+                  "walldeco": {
+                    "walldeco_3.png": {
+                      "type": "-",
+                      "size": 56815,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "walldeco_5.png": {
+                      "type": "-",
+                      "size": 65076,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "walldeco_1.png": {
+                      "type": "-",
+                      "size": 207083,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "walldeco_4.png": {
+                      "type": "-",
+                      "size": 137121,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "walldeco_0.png": {
+                      "type": "-",
+                      "size": 83397,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "walldeco_2.png": {
+                      "type": "-",
+                      "size": 89365,
+                      "lmtime": 0,
+                      "modified": false
+                    }
+                  },
+                  "table": {
+                    "table_0.png": {
+                      "type": "-",
+                      "size": 27821,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "table_5.png": {
+                      "type": "-",
+                      "size": 65881,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "table_4.png": {
+                      "type": "-",
+                      "size": 16891,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "table_3.png": {
+                      "type": "-",
+                      "size": 46010,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "table_2.png": {
+                      "type": "-",
+                      "size": 75750,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "table_1.png": {
+                      "type": "-",
+                      "size": 30090,
+                      "lmtime": 0,
+                      "modified": false
+                    }
+                  },
+                  "sofa": {
+                    "sofa_4.png": {
+                      "type": "-",
+                      "size": 58417,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "sofa_1.png": {
+                      "type": "-",
+                      "size": 84358,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "sofa_3.png": {
+                      "type": "-",
+                      "size": 63440,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "sofa_0.png": {
+                      "type": "-",
+                      "size": 81759,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "sofa_2.png": {
+                      "type": "-",
+                      "size": 56770,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "sofa_5.png": {
+                      "type": "-",
+                      "size": 56559,
+                      "lmtime": 0,
+                      "modified": false
+                    }
+                  },
+                  "lighting": {
+                    "lighting_5.png": {
+                      "type": "-",
+                      "size": 16976,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_3.png": {
+                      "type": "-",
+                      "size": 27587,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_2.png": {
+                      "type": "-",
+                      "size": 26415,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_1.png": {
+                      "type": "-",
+                      "size": 5619,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_4.png": {
+                      "type": "-",
+                      "size": 57511,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_0.png": {
+                      "type": "-",
+                      "size": 10392,
+                      "lmtime": 0,
+                      "modified": false
+                    }
+                  }
+                },
+                "main_bn": {
+                  "banner1.jpeg": {
+                    "type": "-",
+                    "size": 301693,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "banner3.jpeg": {
+                    "type": "-",
+                    "size": 607955,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "banner4.jpeg": {
+                    "type": "-",
+                    "size": 175019,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "banner2.jpeg": {
+                    "type": "-",
+                    "size": 342104,
+                    "lmtime": 0,
+                    "modified": false
+                  }
+                },
+                "heat_icon_b.png": {
+                  "type": "-",
+                  "size": 3457,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "new": {
+                  "new_8.jpg": {
+                    "type": "-",
+                    "size": 69729,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_7.jpg": {
+                    "type": "-",
+                    "size": 16495,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_0.jpg": {
+                    "type": "-",
+                    "size": 34702,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_6.jpg": {
+                    "type": "-",
+                    "size": 35752,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_3.jpg": {
+                    "type": "-",
+                    "size": 66712,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_4.jpg": {
+                    "type": "-",
+                    "size": 47693,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_9.jpg": {
+                    "type": "-",
+                    "size": 22149,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_2.jpg": {
+                    "type": "-",
+                    "size": 56304,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_1.jpg": {
+                    "type": "-",
+                    "size": 62905,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "new_5.jpg": {
+                    "type": "-",
+                    "size": 85704,
+                    "lmtime": 0,
+                    "modified": false
+                  }
+                },
+                "main_brand": {
+                  "brand_2.jpg": {
+                    "type": "-",
+                    "size": 662285,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "brand_4.jpg": {
+                    "type": "-",
+                    "size": 516961,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "brand_3.jpg": {
+                    "type": "-",
+                    "size": 479038,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "brand_1.jpg": {
+                    "type": "-",
+                    "size": 583547,
+                    "lmtime": 0,
+                    "modified": false
+                  }
+                },
+                "arrow_btn.png": {
+                  "type": "-",
+                  "size": 317,
+                  "lmtime": 0,
+                  "modified": false
+                },
+                "best": {
+                  "best_4.jpg": {
+                    "type": "-",
+                    "size": 18407,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_8.jpg": {
+                    "type": "-",
+                    "size": 4512,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_6.jpg": {
+                    "type": "-",
+                    "size": 21612,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_0.jpg": {
+                    "type": "-",
+                    "size": 4750,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_2.jpg": {
+                    "type": "-",
+                    "size": 22296,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_1.jpg": {
+                    "type": "-",
+                    "size": 51117,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_9.jpg": {
+                    "type": "-",
+                    "size": 11813,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_3.jpg": {
+                    "type": "-",
+                    "size": 19806,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_5.jpg": {
+                    "type": "-",
+                    "size": 10832,
+                    "lmtime": 0,
+                    "modified": false
+                  },
+                  "best_7.jpg": {
+                    "type": "-",
+                    "size": 11940,
+                    "lmtime": 0,
+                    "modified": false
+                  }
+                },
+                "shop": {
+                  "furniture": {
+                    "furniture_11.jpg": {
+                      "type": "-",
+                      "size": 22296,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_9.jpg": {
+                      "type": "-",
+                      "size": 56304,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_8.jpg": {
+                      "type": "-",
+                      "size": 22149,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_3_3.jpg": {
+                      "type": "-",
+                      "size": 352295,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_3_1.jpg": {
+                      "type": "-",
+                      "size": 158221,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_12_3.jpg": {
+                      "type": "-",
+                      "size": 16445,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_8_2.jpg": {
+                      "type": "-",
+                      "size": 290561,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_13_1.jpg": {
+                      "type": "-",
+                      "size": 76426,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_12_2.jpg": {
+                      "type": "-",
+                      "size": 491501,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_9_2.jpg": {
+                      "type": "-",
+                      "size": 246434,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_11_3.jpg": {
+                      "type": "-",
+                      "size": 297188,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_13_3.jpg": {
+                      "type": "-",
+                      "size": 54013,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_4_3.jpg": {
+                      "type": "-",
+                      "size": 63853,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_7_3jpg.jpg": {
+                      "type": "-",
+                      "size": 28798,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_2_3.jpg": {
+                      "type": "-",
+                      "size": 572763,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_1.jpg": {
+                      "type": "-",
+                      "size": 9770,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_2.jpg": {
+                      "type": "-",
+                      "size": 8791,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_14.jpg": {
+                      "type": "-",
+                      "size": 11940,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_7_1.jpg": {
+                      "type": "-",
+                      "size": 171591,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_15.jpg": {
+                      "type": "-",
+                      "size": 4512,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_12.jpg": {
+                      "type": "-",
+                      "size": 19806,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_1_4.jpg": {
+                      "type": "-",
+                      "size": 278631,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_6_3.jpg": {
+                      "type": "-",
+                      "size": 133747,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_6_2.jpg": {
+                      "type": "-",
+                      "size": 136209,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_4.jpg": {
+                      "type": "-",
+                      "size": 24933,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_10_1.jpg": {
+                      "type": "-",
+                      "size": 193324,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_2_2.jpg": {
+                      "type": "-",
+                      "size": 319751,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_8_4.jpg": {
+                      "type": "-",
+                      "size": 882441,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_7.jpg": {
+                      "type": "-",
+                      "size": 69729,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_5_1.jpg": {
+                      "type": "-",
+                      "size": 162984,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_2_1.jpg": {
+                      "type": "-",
+                      "size": 333602,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_4_2.jpg": {
+                      "type": "-",
+                      "size": 864217,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_1_3.jpg": {
+                      "type": "-",
+                      "size": 60365,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_10_2.jpg": {
+                      "type": "-",
+                      "size": 173663,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_10_3.jpg": {
+                      "type": "-",
+                      "size": 111956,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_1_2.jpg": {
+                      "type": "-",
+                      "size": 59208,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_5.jpg": {
+                      "type": "-",
+                      "size": 19836,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_4_1.jpg": {
+                      "type": "-",
+                      "size": 142427,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_3.jpg": {
+                      "type": "-",
+                      "size": 13896,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_8_1.jpg": {
+                      "type": "-",
+                      "size": 380347,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_10.jpg": {
+                      "type": "-",
+                      "size": 51117,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_9_4.jpg": {
+                      "type": "-",
+                      "size": 656350,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_8_3.jpg": {
+                      "type": "-",
+                      "size": 73641,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_5_3jpg.jpg": {
+                      "type": "-",
+                      "size": 154898,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_6_4.jpg": {
+                      "type": "-",
+                      "size": 254214,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_11_1.jpg": {
+                      "type": "-",
+                      "size": 89737,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_9_1.jpg": {
+                      "type": "-",
+                      "size": 400396,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_5_2.jpg": {
+                      "type": "-",
+                      "size": 129154,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_6_1.jpg": {
+                      "type": "-",
+                      "size": 66718,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_13.jpg": {
+                      "type": "-",
+                      "size": 18407,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_12_1.jpg": {
+                      "type": "-",
+                      "size": 274248,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_7_2.jpg": {
+                      "type": "-",
+                      "size": 165201,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_6.jpg": {
+                      "type": "-",
+                      "size": 16495,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_9_3.jpg": {
+                      "type": "-",
+                      "size": 214273,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_3_2.jpg": {
+                      "type": "-",
+                      "size": 104425,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_13_2.jpg": {
+                      "type": "-",
+                      "size": 113363,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_1_1.jpg": {
+                      "type": "-",
+                      "size": 71286,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_11_2.jpg": {
+                      "type": "-",
+                      "size": 144802,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "furniture_15_1.jpg": {
+                      "type": "-",
+                      "size": 28911,
+                      "lmtime": 1653621025679,
+                      "modified": false
+                    },
+                    "furniture_15_2.jpg": {
+                      "type": "-",
+                      "size": 31062,
+                      "lmtime": 1653621038172,
+                      "modified": false
+                    },
+                    "furniture_15_3.jpg": {
+                      "type": "-",
+                      "size": 296000,
+                      "lmtime": 1653621065227,
+                      "modified": false
+                    }
+                  },
+                  "lighting": {
+                    "lighting_10_4.jpg": {
+                      "type": "-",
+                      "size": 301023,
+                      "lmtime": 1653603778840,
+                      "modified": false
+                    },
+                    "lighting_3_4.jpg": {
+                      "type": "-",
+                      "size": 62703,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_3_1.jpg": {
+                      "type": "-",
+                      "size": 358226,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_3.jpg": {
+                      "type": "-",
+                      "size": 11813,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_1.jpg": {
+                      "type": "-",
+                      "size": 14518,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_1_1.jpg": {
+                      "type": "-",
+                      "size": 5129855,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_3_3.jpg": {
+                      "type": "-",
+                      "size": 240999,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_2_4.jpg": {
+                      "type": "-",
+                      "size": 18920,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_2_2.jpg": {
+                      "type": "-",
+                      "size": 150576,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_5.jpg": {
+                      "type": "-",
+                      "size": 35752,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_6_1.jpg": {
+                      "type": "-",
+                      "size": 4490145,
+                      "lmtime": 1653602522349,
+                      "modified": false
+                    },
+                    "lighting_2_3.jpg": {
+                      "type": "-",
+                      "size": 53607,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_10_2_IMG_2797.jfif": {
+                      "type": "-",
+                      "size": 250644,
+                      "lmtime": 1653603878903,
+                      "modified": false
+                    },
+                    "lighting_4_1.jpg": {
+                      "type": "-",
+                      "size": 107050,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_4_2.jpg": {
+                      "type": "-",
+                      "size": 84440,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_3_2.jpg": {
+                      "type": "-",
+                      "size": 407604,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_5_1.jpg": {
+                      "type": "-",
+                      "size": 195844,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_10.jpg": {
+                      "type": "-",
+                      "size": 34702,
+                      "lmtime": 1653603628810,
+                      "modified": false
+                    },
+                    "lighting_10_1.jpg": {
+                      "type": "-",
+                      "size": 270385,
+                      "lmtime": 1653603730694,
+                      "modified": false
+                    },
+                    "lighting_2_1.jpg": {
+                      "type": "-",
+                      "size": 353812,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_6_2.jpg": {
+                      "type": "-",
+                      "size": 4490145,
+                      "lmtime": 1653602540133,
+                      "modified": false
+                    },
+                    "lighting_6.jpg": {
+                      "type": "-",
+                      "size": 6653,
+                      "lmtime": 1653602255823,
+                      "modified": false
+                    },
+                    "lighting_2.jpg": {
+                      "type": "-",
+                      "size": 11716,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_5_2.jpg": {
+                      "type": "-",
+                      "size": 545495,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_10_IMG_2797.jfif": {
+                      "type": "-",
+                      "size": 194601,
+                      "lmtime": 1653603825364,
+                      "modified": false
+                    },
+                    "lighting_4.jpg": {
+                      "type": "-",
+                      "size": 10280,
+                      "lmtime": 0,
+                      "modified": false
+                    },
+                    "lighting_7.jpg": {
+                      "type": "-",
+                      "size": 6597,
+                      "lmtime": 1653602704892,
+                      "modified": false
+                    },
+                    "lighting_7_1.jpg": {
+                      "type": "-",
+                      "size": 76570,
+                      "lmtime": 1653602886913,
+                      "modified": false
+                    },
+                    "lighting_7_2.jpg": {
+                      "type": "-",
+                      "size": 244903,
+                      "lmtime": 1653602895591,
+                      "modified": false
+                    },
+                    "lighting_7_3.jpg": {
+                      "type": "-",
+                      "size": 157820,
+                      "lmtime": 1653602961333,
+                      "modified": false
+                    },
+                    "lighting_8.jpg": {
+                      "type": "-",
+                      "size": 25140,
+                      "lmtime": 1653603030218,
+                      "modified": false
+                    },
+                    "lighting_8_1.jpg": {
+                      "type": "-",
+                      "size": 414058,
+                      "lmtime": 1653603186645,
+                      "modified": false
+                    },
+                    "lighting_8_2.jpg": {
+                      "type": "-",
+                      "size": 375931,
+                      "lmtime": 1653603178057,
+                      "modified": false
+                    },
+                    "lighting_8_3.jpg": {
+                      "type": "-",
+                      "size": 205121,
+                      "lmtime": 1653603197679,
+                      "modified": false
+                    },
+                    "lighting_9.jpg": {
+                      "type": "-",
+                      "size": 10112,
+                      "lmtime": 1653603394962,
+                      "modified": false
+                    },
+                    "lighting_9_1.jpg": {
+                      "type": "-",
+                      "size": 1339556,
+                      "lmtime": 1653603528629,
+                      "modified": false
+                    },
+                    "lighting_9_2.jpg": {
+                      "type": "-",
+                      "size": 1339556,
+                      "lmtime": 1653603552930,
+                      "modified": false
+                    },
+                    "lighting_9_3.jpg": {
+                      "type": "-",
+                      "size": 1339556,
+                      "lmtime": 1653603560508,
+                      "modified": false
+                    },
+                    "lighting_9_4.jpg": {
+                      "type": "-",
+                      "size": 347656,
+                      "lmtime": 1653603576352,
+                      "modified": false
+                    }
+                  },
+                  "homedeco": {
+                    "homedeco_1_1.jpg": {
+                      "type": "-",
+                      "size": 219043,
+                      "lmtime": 1653604304734,
+                      "modified": false
+                    },
+                    "homedeco_1.jpg": {
+                      "type": "-",
+                      "size": 47693,
+                      "lmtime": 1653604079145,
+                      "modified": false
+                    },
+                    "homedeco_1_2.jpg": {
+                      "type": "-",
+                      "size": 226700,
+                      "lmtime": 1653604332905,
+                      "modified": false
+                    },
+                    "homedeco_1_3.jpg": {
+                      "type": "-",
+                      "size": 152648,
+                      "lmtime": 1653604354506,
+                      "modified": false
+                    },
+                    "homedeco_1_4.jpg": {
+                      "type": "-",
+                      "size": 355256,
+                      "lmtime": 1653604360874,
+                      "modified": false
+                    },
+                    "homedeco_2.jpg": {
+                      "type": "-",
+                      "size": 85704,
+                      "lmtime": 1653604422807,
+                      "modified": false
+                    },
+                    "homedeco_2_1.jpg": {
+                      "type": "-",
+                      "size": 205121,
+                      "lmtime": 1653604604930,
+                      "modified": false
+                    },
+                    "homedeco_3.jpg": {
+                      "type": "-",
+                      "size": 35862,
+                      "lmtime": 1653604704111,
+                      "modified": false
+                    },
+                    "homedeco_3_1.jpg": {
+                      "type": "-",
+                      "size": 147273,
+                      "lmtime": 1653604815767,
+                      "modified": false
+                    },
+                    "homedeco_3_2.jfif": {
+                      "type": "-",
+                      "size": 377052,
+                      "lmtime": 1653604841613,
+                      "modified": false
+                    },
+                    "homedeco_3_3.jpg": {
+                      "type": "-",
+                      "size": 162380,
+                      "lmtime": 1653604921883,
+                      "modified": false
+                    },
+                    "homedeco_4.jpg": {
+                      "type": "-",
+                      "size": 47534,
+                      "lmtime": 1653605136294,
+                      "modified": false
+                    },
+                    "homedeco_4_1.jpg": {
+                      "type": "-",
+                      "size": 348378,
+                      "lmtime": 1653605105160,
+                      "modified": false
+                    },
+                    "homedeco_5.jpg": {
+                      "type": "-",
+                      "size": 59994,
+                      "lmtime": 1653605321002,
+                      "modified": false
+                    },
+                    "homedeco_5_1.jpg": {
+                      "type": "-",
+                      "size": 2310593,
+                      "lmtime": 1653605457589,
+                      "modified": false
+                    },
+                    "homedeco_6.jpg": {
+                      "type": "-",
+                      "size": 113465,
+                      "lmtime": 1653605516184,
+                      "modified": false
+                    },
+                    "homedeco_6_1.jpg": {
+                      "type": "-",
+                      "size": 1589893,
+                      "lmtime": 1653605835316,
+                      "modified": false
+                    },
+                    "homedeco_6_2.jpg": {
+                      "type": "-",
+                      "size": 115270,
+                      "lmtime": 1653605863271,
+                      "modified": false
+                    },
+                    "homedeco_7.jpg": {
+                      "type": "-",
+                      "size": 29047,
+                      "lmtime": 1653605917873,
+                      "modified": false
+                    },
+                    "homedeco_7_1.jpg": {
+                      "type": "-",
+                      "size": 78075,
+                      "lmtime": 1653606241568,
+                      "modified": false
+                    },
+                    "homedeco_7_2.jpg": {
+                      "type": "-",
+                      "size": 42982,
+                      "lmtime": 1653606265891,
+                      "modified": false
+                    }
+                  },
+                  "textile": {
+                    "textile_2_1.jpg": {
+                      "type": "-",
+                      "size": 2083040,
+                      "lmtime": 1653616123071,
+                      "modified": false
+                    },
+                    "textile_5.jpg": {
+                      "type": "-",
+                      "size": 52036,
+                      "lmtime": 1653616553876,
+                      "modified": false
+                    },
+                    "textile_2.jpg": {
+                      "type": "-",
+                      "size": 82529,
+                      "lmtime": 1653616033163,
+                      "modified": false
+                    },
+                    "textile_4.jpg": {
+                      "type": "-",
+                      "size": 52794,
+                      "lmtime": 1653616381205,
+                      "modified": false
+                    },
+                    "textile_10_1.jpg": {
+                      "type": "-",
+                      "size": 391150,
+                      "lmtime": 1653618120520,
+                      "modified": false
+                    },
+                    "textile_3.jpg": {
+                      "type": "-",
+                      "size": 146552,
+                      "lmtime": 1653616210665,
+                      "modified": false
+                    },
+                    "textile_1.jpg": {
+                      "type": "-",
+                      "size": 86078,
+                      "lmtime": 1653615230477,
+                      "modified": false
+                    },
+                    "textile_4_1.jpg": {
+                      "type": "-",
+                      "size": 2257355,
+                      "lmtime": 1653616501772,
+                      "modified": false
+                    },
+                    "textile_3_1.jpg": {
+                      "type": "-",
+                      "size": 761625,
+                      "lmtime": 1653616345107,
+                      "modified": false
+                    },
+                    "textile_10.jpg": {
+                      "type": "-",
+                      "size": 34319,
+                      "lmtime": 1653618047095,
+                      "modified": false
+                    },
+                    "textile_1_1.jpg": {
+                      "type": "-",
+                      "size": 1917535,
+                      "lmtime": 1653616010639,
+                      "modified": false
+                    },
+                    "textile_5_1.jpg": {
+                      "type": "-",
+                      "size": 1939467,
+                      "lmtime": 1653616605464,
+                      "modified": false
+                    },
+                    "textile_6.jpg": {
+                      "type": "-",
+                      "size": 5903,
+                      "lmtime": 1653616662412,
+                      "modified": false
+                    },
+                    "textile_6_1.jpg": {
+                      "type": "-",
+                      "size": 139526,
+                      "lmtime": 1653616831639,
+                      "modified": false
+                    },
+                    "textile_6_2.jpg": {
+                      "type": "-",
+                      "size": 101355,
+                      "lmtime": 1653616842178,
+                      "modified": false
+                    },
+                    "textile_6_3.jpg": {
+                      "type": "-",
+                      "size": 103701,
+                      "lmtime": 1653616859446,
+                      "modified": false
+                    },
+                    "textile_7.jpg": {
+                      "type": "-",
+                      "size": 6910,
+                      "lmtime": 1653616906304,
+                      "modified": false
+                    },
+                    "textile_7_1.jpg": {
+                      "type": "-",
+                      "size": 98533,
+                      "lmtime": 1653616956176,
+                      "modified": false
+                    },
+                    "textile_7_2.jpg": {
+                      "type": "-",
+                      "size": 85942,
+                      "lmtime": 1653616965964,
+                      "modified": false
+                    },
+                    "textile_7_3.jpg": {
+                      "type": "-",
+                      "size": 87886,
+                      "lmtime": 1653616975787,
+                      "modified": false
+                    },
+                    "textile_8.jpg": {
+                      "type": "-",
+                      "size": 9152,
+                      "lmtime": 1653617068302,
+                      "modified": false
+                    },
+                    "textile_8_1.jpg": {
+                      "type": "-",
+                      "size": 165553,
+                      "lmtime": 1653617715754,
+                      "modified": false
+                    },
+                    "textile_8_2.jpg": {
+                      "type": "-",
+                      "size": 202491,
+                      "lmtime": 1653617724734,
+                      "modified": false
+                    },
+                    "textile_8_3.jpg": {
+                      "type": "-",
+                      "size": 87068,
+                      "lmtime": 1653617746068,
+                      "modified": false
+                    },
+                    "textile_9.jpg": {
+                      "type": "-",
+                      "size": 30616,
+                      "lmtime": 1653617806615,
+                      "modified": false
+                    },
+                    "textile_9_1.jpg": {
+                      "type": "-",
+                      "size": 131643,
+                      "lmtime": 1653617988714,
+                      "modified": false
+                    },
+                    "textile_9_2.jpg": {
+                      "type": "-",
+                      "size": 315112,
+                      "lmtime": 1653618002618,
+                      "modified": false
+                    },
+                    "textile_9_3.jpg": {
+                      "type": "-",
+                      "size": 163157,
+                      "lmtime": 1653618011625,
+                      "modified": false
+                    }
+                  },
+                  "electronic": {
+                    "elec_1.jpg": {
+                      "type": "-",
+                      "size": 59144,
+                      "lmtime": 1653618212428,
+                      "modified": false
+                    }
+                  }
+                },
+                "heat_icon.png": {
+                  "type": "-",
+                  "size": 3656,
+                  "lmtime": 0,
+                  "modified": false
+                }
+              },
+              "deal.html": {
+                "type": "-",
+                "size": 14043,
+                "lmtime": 0,
+                "modified": true
+              },
+              "index_2.html": {
+                "type": "-",
+                "size": 12198,
+                "lmtime": 1653551532028,
+                "modified": true
+              },
+              "shop.html": {
+                "type": "-",
+                "size": 9206,
+                "lmtime": 1653637602123,
+                "modified": false
+              },
+              "css": {
+                "shop.css": {
+                  "type": "-",
+                  "size": 1304,
+                  "lmtime": 1653638243635,
+                  "modified": false
+                },
+                "index.css": {
+                  "type": "-",
+                  "size": 1788,
+                  "lmtime": 0,
+                  "modified": true
+                },
+                "index_2.css": {
+                  "type": "-",
+                  "size": 5055,
+                  "lmtime": 0,
+                  "modified": true
+                },
+                "common.css": {
+                  "type": "-",
+                  "size": 3028,
+                  "lmtime": 0,
+                  "modified": true
+                },
+                "deal.css": {
+                  "type": "-",
+                  "size": 3068,
+                  "lmtime": 0,
+                  "modified": true
+                }
+              },
+              "index.html": {
+                "type": "-",
+                "size": 6610,
+                "lmtime": 0,
+                "modified": true
+              },
+              ".vscode": {
+                "ftp-kr.sync.cache.json": {
+                  "type": "-",
+                  "size": 49567,
+                  "lmtime": 1653636084328,
+                  "modified": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$version": 1
+}
