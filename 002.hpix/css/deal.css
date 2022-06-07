@@ -1,0 +1,184 @@
+.main {
+    width: 100%;
+    
+    overflow: hidden;
+}
+.item_img_box {
+    width: 60%;
+    float: left;
+
+    background: pink;
+}
+
+.deal_box {
+    width: 40%;
+    height: calc(100vh - 40px);
+    /* border-left: 0.5px solid; */
+    box-shadow: 0 0 2px 2px rgba(161, 161, 161, 0.3);
+    position: fixed;
+    right: 0%;
+    bottom: 0;
+    font-size: 15px;
+    /* background-color: royalblue; */
+
+    padding: 80px;
+    box-sizing: border-box;
+    color: rgb(80, 80, 80);
+}
+.brand_name {
+    display: inline-block;
+    height: 30px;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    border-bottom: 0.5px solid;
+    color: #000;
+    margin-bottom: 5px;
+}
+.item_name, .price_area {
+    line-height: 30px;
+    font-size: 15px;
+}
+.price_area {margin-top: 5px ;}
+.dc_price {
+    color: #ddd;
+    text-decoration: line-through;
+    font-weight: 100;
+}
+
+.agree_chk {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.chk_circle {
+    display: inline-block;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+    border: 0.5px solid rgb(55, 55, 55);
+    position: relative;
+}
+.inner_circle {
+    display: none;
+
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+
+    border-radius: 50%;
+    background-color: rgb(55, 55, 55);
+}
+.chk_dsc {
+    font-size: 13px;
+
+}
+
+.total_box {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+    padding: 10px 0 40px;
+}
+.qty_box {
+    display: flex;
+    margin-bottom: 20px;
+}
+.qty_btn, .qty {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+}
+.qty {
+    width: 50px;
+    font-size: 15px;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+.total_price {
+    font-weight: 700;
+    color: #000;
+}
+
+.info_title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(55, 55, 55);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.open_icon {
+    font-size: 15px;
+    font-weight: 900;
+    transform: rotate(90deg);
+    transition: all 0.2s;
+}
+.open_icon_open {transform: rotate(-90deg);}
+
+.info {
+    height: 0;
+    /* padding: 10px 0 40px; */
+    font-size: 12px;
+    line-height: 23px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: all 0.2s;
+}
+.info_open {
+    height: 200px;
+}
+.info::-webkit-scrollbar {
+    width: 2px;
+}
+.info::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 10px;
+    background-clip: padding-box;
+    /* border: 2px solid transparent; */
+}
+/* .thumnail_box::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+} */
+
+
+.dsc_title {
+    width: 15%;
+}
+.dsc {
+    width: 85%;
+}
+.dsc_title {
+    color: rgb(22, 22, 22);
+    font-weight: 700;
+}
+
+.etc_btn_box {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.etc_btn {
+    padding: 10px 0;
+    cursor: pointer;
+}

@@ -1,10 +1,16 @@
 body {margin: 0;}
 a {text-decoration: none; color: inherit;}
+.wrap {
+    overflow: hidden;
+}
+main {
+    margin-top: 40px
+}
 
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 .nanumgothic * {
- font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 /* 헤더 */
@@ -57,9 +63,14 @@ a {text-decoration: none; color: inherit;}
 .menu_li:hover {
     color: #ddd;
 }
+.search_flex {display: flex; gap: 10px; align-items: center;}
 .search {
-    background: url(../img/search_icon.png) no-repeat center / cover;
-    background-position-y: 10px;
+    width: 25px;
+    height: 25px;
+    background: url(../img/search_icon.png) no-repeat center;
+    background-position-y: -35px;
+    background-size: 18px;
+    margin-right: 10px;
 }
 
 /* 메뉴 */
@@ -69,27 +80,30 @@ a {text-decoration: none; color: inherit;}
     overflow: hidden;
 
     background-color: #fff;
-    border-top: 0.5px solid #000;
-    border-bottom: 0.5px solid #000;
+    /* border-top: 0.5px solid #000;
+    border-bottom: 0.5px solid #000; */
     box-sizing: border-box;
 
     position: fixed;
     left: 0;
-    top: 40px;
+    top: 39px;
 
     display: flex;
     align-items: baseline;
 
     font-size: 13px;
     
-    transition: all 0.3s;
+    transition: height 0.3s;
+    border-top: 0.5px solid #000;
+    border-bottom: 0.5px solid #000;
+    z-index: 99;
+    
 }
 .menu_pan_box_act {
     height: 300px;
+    z-index: 999999991;
 }
-.menu_pan_box:hover {
-    height: 300px;
-}
+
 .menu_large_cate, .menu_small_cate {
     display: flex;
     flex-wrap: wrap;
@@ -127,4 +141,34 @@ a {text-decoration: none; color: inherit;}
 }
 .pan_li:hover {
     color: #ddd;
+}
+
+
+
+
+/* footer */
+footer {
+    width: 80%;
+    border-top: 1px solid #ddd;
+
+    color: rgb(61, 61, 61);
+    font-size: 12px;
+    line-height: 20px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_info {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.footer_info > div {
+    line-height: 30px;
+}
+.footer_info > span {
+    font-weight: 700;
+}
+.footer_info:last-child {
+    text-align: right;
 }

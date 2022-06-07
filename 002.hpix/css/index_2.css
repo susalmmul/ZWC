@@ -1,0 +1,304 @@
+
+.main_bn_box {
+    width: 100%;
+    padding-bottom: 55vw;
+
+    position: relative;
+    top: 0;
+    left: 0;
+
+    background-color: yellowgreen;
+    overflow: hidden;
+}
+.main_bn {
+    display: inline-block;
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+    user-select: none;
+}
+.main_bn img {
+    width: 100%;
+}
+.main_bn0 {
+    left: 0;
+}
+.indi_box {
+    width: 300px;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.indi {
+    width: 50px;
+    height: 3px;
+    background-color: rgb(31, 31, 31);
+
+    transition: all 0.5s;
+}
+.indi_active {
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.prev_btn, .next_btn,.b_prev_btn,.b_next_btn {
+    width: 30px;
+    height: 30px;
+    background: url(../img/arrow_btn.png) no-repeat;
+
+    position: absolute;
+    top: 50%;
+    background-position: 20px;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 9;
+}
+.prev_btn, .b_prev_btn {
+    left: 10px;
+    
+    transform: translateY(-50%) rotate(90deg);
+}
+.next_btn, .b_next_btn {
+    right: 10px;
+    
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+
+/* new item sec */
+
+.title_sec {
+    width: 100%;
+    padding: 200px 40px 40px;
+    box-sizing: border-box;
+
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+.sub_title {
+    font-size: 13px
+}
+
+.new_item_box {
+    width: 90%;
+    height: 30vw;
+    position: relative;
+
+    margin: 0 auto;
+
+    line-height: 25px;
+    overflow: hidden;
+}
+.new_items {
+    width: calc(100% / 4);
+    box-sizing: border-box;
+    padding: 0 1px;
+
+    position: absolute;
+    top: 0;
+}
+.new_items img {
+    width: 100%;
+}
+
+.brand_name {
+    font-size: 15px;
+    font-weight: 700;
+}
+.item_name {
+    font-size: 13px;
+    font-weight: 400;
+}
+.price_area {
+    font-size: 13px;
+}
+.dc_price {
+    color: rgb(107, 107, 107);
+    text-decoration: line-through;
+    font-weight: 100;
+}
+
+/* 베스트 아이템 */
+.best_item_box {
+    width: 60%;
+    height: 44.5vw;
+
+    margin: 0 auto;
+    display: flex;
+}
+.link_best {
+    display: inline-block;
+    width: calc(100% - ((100% - 5px * 2) / 4));
+    height: 100%;
+    margin-right: 5px;
+
+    position: relative;
+}
+
+.best_info {
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    color: #000;
+
+    display: none;
+
+    padding: 20px 30px;
+    box-sizing: border-box;
+
+    line-height: 35px;
+}
+.best_info .brand_name {
+    font-size: 20px;
+}
+.best_info .item_name, .best_info .price_area {
+    font-size: 17px;
+}
+.link_best:hover .best_info{
+    display: block;
+}
+
+.thumnail_box {
+    width: calc((100% - 5px * 2) / 4);
+    height: 100%;
+    font-size: 0;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.thumbnail_best {position: relative;}
+.thumbnail_best::after, .link_best::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: rgba(0,0,0,0.05);
+    pointer-events: none;
+}
+.thumnail_box::-webkit-scrollbar {
+    width: 10px;
+}
+.thumnail_box::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+/* .thumnail_box::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+} */
+.thumbnail_best {
+    width: calc(100% + 10px);
+    margin-bottom: 5px;
+}
+.best_item_box img {
+    width: 100%;
+}
+
+/* 스토리 */
+.story_box {
+    display: flex;
+
+    height: 67vw;
+    margin-top: 300px;
+}
+.l_story_box {
+    width: 30%;
+    height: 100%;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    box-sizing: border-box;
+}
+.r_story_box {
+    width: 70%;
+    height: 100%;
+    border-top: 2px solid;
+    box-sizing: border-box;
+    border-bottom: 2px solid;
+}
+.story_box .title_sec {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.brand_img_box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    overflow: hidden;
+}
+.brand_img {
+    user-select: none;
+
+    display: inline-block;
+    width: 80%;
+    position: absolute;
+    top: 0;
+
+    font-size: 0;
+    overflow: hidden;
+}
+.brand_img img {
+    width: 100%;
+}
+
+
+/* 인스타그램 */
+.title_sec img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.insta_box {
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.insta_img {
+    width: calc(100% / 10);
+    height: calc(100vw / 10);
+    padding: 0.5px;
+    box-sizing: border-box;
+}
+.insta_box::-webkit-scrollbar {
+    width: 1px;
+}
+.insta_box::-webkit-scrollbar-thumb {
+    background-color: #2f3542;
+    border-radius: 5px;
+    background-clip: padding-box;
+    /* border: 2px solid transparent; */
+}
+.insta_img {display: inline-block; background-color: rgb(202, 202, 202);}

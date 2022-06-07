@@ -1,0 +1,185 @@
+create table 테이블이름(
+    
+)
+select 불러올필드명 from 테이블이름
+insert into 테이블이름 values (필드 순서대로) 
+
+
+drop table product_su;
+
+create table product_su (
+    seqno int(10) unsigned not null auto_increment, 
+    cate int(10) not null,
+    item_no int(10) not null,
+    src varchar(255) not null ,
+    deal_src varchar(255) not null , 
+    brand varchar(255) not null,
+    title varchar(255) not null,
+    o_price int(10) not null,
+    s_price int(10) not null,
+    designer varchar(255) not null,
+    country varchar(255) not null,
+    material varchar(255) not null,
+    color varchar(255) not null,
+    size int(255) not null,
+
+    primary key(seqno)
+);
+
+<!-- furnituer / cate_no = 0 -->
+
+insert into product_su value ('', 0, 1, 'furniture_1_1.jpg', 'furniture_1_1.jpg,furniture_1_2.jpg,furniture_1_3.jpg,furniture_1_4.jpg', 'TECTA', 'K1CS OBLIQUE COUCH TABLE - WHITE 125cm (바로배송)', 3280000, 0, 'Tecta,2005', '독일 (Germany)', '크롬 (Chromed tubular steel) / 라커드 우드 ( lacquered wood )', '흰색 (White)', '125,30,50' );
+
+insert into product_su value ('', 0, 2, 'furniture_2.jpg', 'furniture_2_1.jpg,furniture_2_2.jpg,furniture_2_3.jpg', 'TECTA', 'LOT LITE TABLE - SPECIAL COLOR (WHITE)', 11720000, 0, 'Wolfgang Hartauer', '독일 (Germany)', '참나무 (Oak veneer)', '흰색 (White)', '240,74,90' );
+
+insert into product_su value ('', 0, 3, 'furniture_15.jpg', 'furniture_15_1.jpg,furniture_15_2.jpg,furniture_15_3.jpg,furniture_1_4.jpg', 'TECTA', 'K1A OBLIQUE COUCH TABLE - WHITE 79cm (바로배송)', 1900000, 0, 'Tecta, 2005', '독일 (Germany)', '크롬 (Chromed tubular steel) / 라커드 우드 ( lacquered wood )', '흰색 (White)', '75,25,74' );
+
+insert into product_su value ('', 0, 4, 'furniture_4.jpg', 'furniture_4_1.jpg,furniture_4_2.jpg,furniture_4_3.jpg,furniture_1_4.jpg', 'TECTA', 'B5 CHAIR - RED / LEATHER 1', 1580000, 0, 'Stefan Wewerka & Tecta', '독일 (Germany)', '가죽 (Leather) / 니켈 (Nickel) / 철 (Stainless Steel)', 'Red', '75,25,74' );
+
+insert into product_su value ('', 0, 5, 'furniture_5.jpg', 'furniture_5_1.jpg,furniture_5_2.jpg,furniture_5_3.jpg,furniture_1_4.jpg', 'TECTA', 'B40 BREUER CHAIR - BAUHAUS STRAP - DARK GREEN', 1920000, 0, 'Marcel Breuer, 1925', '독일 (Germany)', '패브릭 (Fabric) / 니켈 (Nickel) / 철 (Stainless Steel)', 'Dark Green', '45,88,57' );
+
+insert into product_su value ('', 0, 6, 'furniture_6.jpg', 'furniture_6_1.jpg,furniture_6_2.jpg,furniture_6_3.jpg,furniture_6_4.jpg', 'DE SEDE', 'DS-1064 - OFF WHITE', -1, 0, 'de Sede Design Team', '스위스 (Switzerland)', 'LEATHER', 'OFF WHITE', '407,100,239' );
+
+insert into product_su value ('', 0, 7, 'furniture_7.jpg', 'furniture_7_1.jpg,furniture_7_2.jpg,furniture_7_3.jpg,furniture_6_4.jpg', 'DE SEDE', 'DS-707/01 - KVADRAT ATOM 574', -1, 0, 'Philippe Malouin', '스위스 (Switzerland)', 'LEATHER', 'KVADRAT ATOM', '100,75,85' );
+
+insert into product_su value ('', 0, 8, 'furniture_8.jpg', 'furniture_8_1.jpg,furniture_8_2.jpg,furniture_8_3.jpg,furniture_8_4.jpg', 'SPECTRUM', 'STELTMAN CHAIR - OAK (DISPLAY / DOSAN)', 4510000, 0, 'Gerrit Rietveld', '네덜란드', 'Solid oak', '', '50,45,70' );
+
+insert into product_su value ('', 0, 9, 'furniture_9.jpg', 'furniture_9_1.jpg,furniture_9_2.jpg,furniture_9_3.jpg,furniture_9_4.jpg', 'KIM MUYEUL', 'KIM MU YEUL - MUSHROOM STOOL', 2800000, 0, 'KIM MUYEUL', '대한민국', 'CERAMIC', '', '450,420,370' );
+
+insert into product_su value ('', 0, 10, 'furniture_10.jpg', 'furniture_10_1.jpg,furniture_10_2.jpg,furniture_10_3.jpg,furniture_8_4.jpg', 'SPECTRUM', 'PAPERBACK WALLSYSTEM - WHITE 120cm (바로배송)', 1990000, 0, 'STUDIO PARADE', '해외', 'Backboard: MDF / Shelves: HPL (High pressure laminate , 고압성형 라미네이트 목재)', 'WHITE', '120,60,20' );
+
+insert into product_su value ('', 0, 11, 'furniture_11.jpg', 'furniture_11_1.jpg,furniture_11_2.jpg,furniture_11_3.jpg,furniture_1_4.jpg', 'TECTA', 'D4 BAUHAUS CHAIR - BLACK / LEATHER 1 (바로배송)', 3220000, 0, 'Marcel Breuer, 1927', '독일 (Germany)', 'LEATHER Stainless Steel', '검정 (Black)', '78,71,61' );
+
+insert into product_su value ('', 0, 12, 'furniture_12.jpg', 'furniture_12_1.jpg,furniture_12_2.jpg,furniture_12_3.jpg,furniture_1_4.jpg', 'TECTA', 'S44 BOOK SHELF - BLACK (바로배송)', 3250000, 0, 'Marcel Breuer, 1932', '독일 (Germany)', '크롬 (Chromed tubular steel) / 라커드 우드 ( Lacquered wood )', '검정 (Black)', '140,212,37' );
+
+insert into product_su value ('', 0, 13, 'furniture_13.jpg', 'furniture_13_1.jpg,furniture_13_2.jpg,furniture_13_3.jpg,furniture_1_4.jpg', 'TECTA', 'K22G MOBILE TABLE - CRYSTAL GLASS (바로배송)', 1500000, 0, 'Tecta, 1996', '독일 (Germany)', '크롬 (Chromed steel tube) / 유리 (Crystal glass)', '투명 (Crystal Glass)', '60,46,45' );
+
+insert into product_su value ('', 0, 14, 'furniture_14.jpg', 'furniture_3_1.jpg,furniture_3_2.jpg,furniture_3_3.jpg,furniture_1_4.jpg', 'TECTA', 'K3B OBLIQUE NESTING TABLE - WHITE (바로배송)', 1220000, 0, 'Tecta, 2005', '독일 (Germany)', '크롬 (Chromed lacquered) / 라커드 베니어 (lacquered venner)', '화이트 (White)', '45,40,50' );
+
+insert into product_su value ('', 0, 15, 'furniture_15.jpg', 'furniture_15_1.jpg,furniture_15_2.jpg,furniture_15_3.jpg,furniture_1_4.jpg', 'TECTA', 'K1A OBLIQUE COUCH TABLE - WHITE 79cm (바로배송)', 1900000, 0, 'Tecta, 2005', '독일 (Germany)', '크롬 (Chromed tubular steel) / 라커드 우드 ( lacquered wood )', '화이트 (White)', '79,25,74' );
+
+////////////////////////////////////////////////////////////
+
+insert into product_su value ('', 1, 1, 'lighting_1.jpg', 'lighting_1_1.jpg', 'ILKWANG LIGHTING', 'SNOWMAN22 STAND - BUTTER', 210000, 0, '일광전구', '대한민국 (KOREA)', 'F-LED T25 FR', 'BUTTER', '22,29,30' );
+
+insert into product_su value ('', 1, 2, 'lighting_2.jpg', 'lighting_2_1.jpg,lighting_2_2.jpg,lighting_2_3.jpg,lighting_2_4.jpg', 'AGO LIGHTING', 'CIRKUS CHANDELIER WALL LAMP (배송 2주소요)', 195000, 0, 'BYMARS', '대한민국 (KOREA)', 'Coated metal and White opal glass', 'GREY', '48,180,30' );
+
+insert into product_su value ('', 1, 3, 'lighting_3.jpg', 'lighting_3_1.jpg,lighting_3_2.jpg,lighting_3_3.jpg,lighting_3_4.jpg', 'FE26 SEOUL', 'EMBODIED FLOOR STAND LAMP - 01 BLACK (바로배송)', 390000, 0, 'FE26 SEOUL', '대한민국 (KOREA)', 'Coated metal and White opal glass', 'BLACK', '85,160,30' );
+
+insert into product_su value ('', 1, 4, 'lighting_4.jpg', 'lighting_4_1.jpg,lighting_4_2.jpg', 'AGO LIGHTING', 'BALLOON PENDANT LAMP - WHITE (배송 2주소요)', 429000, 0, 'studio word', '대한민국 (KOREA)', 'Powder coated Steel. White opal glass', 'WHITE', '197,200,30' );
+
+insert into product_su value ('', 1, 5, 'lighting_5.jpg', 'lighting_5_1.jpg,lighting_5_2.jpg', 'MANDALAKI', 'HALO EVO - HORIZON', 2890000, 0, 'Mandalaki Studio', '이탈리아 (Italy)', 'Aluminium, brass, glass', 'HORIZON', '13,120,7.5' );
+
+insert into product_su value ('', 1, 6, 'lighting_6.jpg', 'lighting_6_1.jpg,lighting_6_2.jpg', 'ILKWANG LIGHTINGBRAND SHOP', 'SNOWMAN22 FLOOR STAND - BUTTER', 340000, 0, '일광전구', '대한민국 (KOREA)', 'LED PS535 5.5W', 'BUTTER', '22,132,40' );
+
+insert into product_su value ('', 1, 7, 'lighting_7.jpg', 'lighting_7_1.jpg,lighting_7_2.jpg,lighting_7_3.jpg', 'ESTABLISHED & SONS', 'S1 CONE TORCH LIGHT - YELLOW', 410000, 0, 'Sylvain Willenz', '영국 (UK)', 'PVC (PVC dipped polymer shade and ceiling fixing) / 폴리카보네이트 (Clear diamond textured polycarbonate diffuser)', '노랑(Yellow)', '15,21,30' );
+
+insert into product_su value ('', 1, 8, 'lighting_8.jpg', 'lighting_8_1.jpg,lighting_8_2.jpg,lighting_8_3.jpg', 'SHALL WE DANCE', 'BLANKWIND - COOL LAMP', 410000, 0, 'SHALL WE DANCE', '대한민국 (KOREA)', '아크릴, LED', 'Transparent', '270,160,120' );
+
+insert into product_su value ('', 1, 9, 'lighting_9.jpg', 'lighting_9_1.jpg,lighting_9_2.jpg,lighting_9_3.jpg,lighting_9_4.jpg', 'MARTINELLI LUCE', 'CONO PENDANT LAMP LARGE (4 Colors) (RED 바로배송)', 410000, 0, 'Elio Martinelli, 1980', '이탈리아 (Italy)', '1 x LED 15W E26', 'White,Red,Green,Copper', '45,26,40' );
+
+insert into product_su value ('', 1, 10, 'lighting_10.jpg', 'lighting_10_1.jpg,lighting_10_IMG_2797.jfif,lighting_10_2_IMG_2797.jfif,lighting_10_4.jpg', 'MARTINELLI LUCE', 'MINIPIPISTRELLO TABLE LAMP - WHITE / CORDLESS (바로배송)', 1790000, 0, 'Gae Aulenti, 1965, 1980', '이탈리아 (Italy)', 'Stainless steel, Methacrylate Diffuser', 'White', '27,35,40' );
+
+///////////////////////////////////////////////////////////
+
+insert into product_su value ('', 2, 1, 'homedeco_1.jpg', 'homedeco_1_1.jpg,homedeco_1_2.jpg,homedeco_1_3.jpg,homedeco_1_4.jpg', 'BEN & AJA BLANC', 'HALF MOON MIRROR - CLEAR / NATURAL FIBER', -1, 0, 'Ben & Aja Blanc', '미국 (USA)', '거울, 실크/모헤어/울 혼용 패브릭, 브라스', 'BUTTER', '121.92,60.96,5.08' );
+
+insert into product_su value ('', 2, 2, 'homedeco_2.jpg', 'homedeco_2_1', 'SHALL WE DANCE', 'BLANK WIND WALLTYPE - SILVER', 1500000, 0, 'SHALL WE DANCE', '대한민국 (KOREA)', 'Acrylic', 'silver', '70,85,0' );
+
+insert into product_su value ('', 2, 3, 'homedeco_3.jpg', 'homedeco_3_1.jpg,homedeco_3_2.jfif', 'MOUSTACHE', 'ZODIAC SMALL - PLATINUM (10월 입고)', -1, 0, 'Jean-Baptiste Fastrez', '프랑스 (France) / 이탈리아 (Italy)', 'Enamelled ceramic', 'Platinum', '55,70,15.5' );
+
+insert into product_su value ('', 2, 4, 'homedeco_4.jpg', 'homedeco_4_1.jpg', 'WOOTHIC', 'WOOTHIC MEMO ORGANIZER M', 75000, 0, 'Jean-Baptiste Fastrez', '대한민국 (KOREA)', '자작나무합판(Birch plywood), 월넛 원목(Walnut), 황동(Brass)', 'Platinum', '31,10.5,32.2' );
+
+insert into product_su value ('', 2, 5, 'homedeco_5.jpg', 'homedeco_5_1.jpg', "D'ACCORD PIECE", 'WHAT I LOVE 02', 180000, 0, '다꼬르피스', '대한민국 (KOREA)', '용지: 195g/m2 무광 파인아트 용지', '', '70,100,' );
+
+insert into product_su value ('', 2, 6, 'homedeco_6.jpg', 'homedeco_6_1.jpg,homedeco_6_2.jpg', "D'ACCORD PIECE", 'Terrace', 180000, 0, "D'ACCORD PIECE", '대한민국 (KOREA)', '용지: 195g/m2 무광 파인아트 용지', '', '100,70,' );
+
+insert into product_su value ('', 2, 7, 'homedeco_7.jpg', 'homedeco_7_1.jpg,homedeco_7_2.jpg', 'MOHEIM', 'OVAL MIRROR - BLACK', 579000, 0, 'MOHEIM', '일본 (Japan)', 'cow hide, mirror, ABS', 'BLACK', '38,45.5,5.5' );
+
+//////////////////////////////////////////////////////////////
+
+insert into product_su value ('', 3, 1, 'textile_1.jpg', 'textile_1_1.jpg', 'MORNING NOON NIGHT', 'LUCKY GREEN', 232000, 0, 'Morning noon night', '미국 (USA)', '100% cotton (USA cotton)', 'Various Color', '13,18,' );
+
+insert into product_su value ('', 3, 2, 'textile_2.jpg', 'textile_2_1.jpg', 'MORNING NOON NIGHT', 'FRUIT PICNIC', 232000, 0, 'Morning noon night', '미국 (USA)', '100% cotton (USA cotton)', 'Various Color', '13,18,' );
+
+insert into product_su value ('', 3, 3, 'textile_3.jpg', 'textile_3_1.jpg', 'SAY TOUCHE', 'LIQUIFIED PERSIAN RUG - BLACK', 490000, 0, 'say touche', '대한민국 (KOREA)', '100% cotton', 'BLACK', '200,200,' );
+
+insert into product_su value ('', 3, 4, 'textile_4.jpg', 'textile_4_1.jpg', 'MORNING NOON NIGHT', 'MOUNTAIN DEW', 328000, 0, 'Morning noon night', 'India', '100% cotton (USA cotton)', 'Various Color', '80,130,' );
+
+insert into product_su value ('', 3, 5, 'textile_5.jpg', 'textile_5_1.jpg', 'MORNING NOON NIGHT', 'CLOUD SEA', 328000, 0, 'Morning noon night', 'India', '100% cotton (USA cotton)', 'Various Color', '80,130,' );
+
+insert into product_su value ('', 3, 6, 'textile_6.jpg', 'textile_6_1.jpg,textile_6_2.jpg,textile_6_3.jpg', 'ILSANGJINGMUL', 'LIGHT LINEN KITCHEN CLOTH - LAKE', 15000, 0, 'ILSANGJINGMUL', 'India', '린넨 (100% Linen)', '하늘색 (Sky blue)', '45,65,' );
+
+insert into product_su value ('', 3, 7, 'textile_7.jpg', 'textile_7_1.jpg,textile_7_2.jpg,textile_7_3.jpg', 'ILSANGJINGMUL', 'HEAVY LINEN KITCHEN CLOTH - SAND BEIGE', 15000, 0, 'ILSANGJINGMUL', 'India', '린넨 (100% Linen)', '베이지색 (Beige)', '45,65,' );
+
+insert into product_su value ('', 3, 8, 'textile_8.jpg', 'textile_8_1.jpg,textile_8_2.jpg,textile_8_3.jpg', 'ILSANGJINGMUL', 'LIGHT LINEN KITCHEN CLOTH - DORMITORY', 15000, 0, 'ILSANGJINGMUL', 'India', '린넨 (100% Linen)', '남색 (Navy)', '45,65,' );
+
+insert into product_su value ('', 3, 9, 'textile_9.jpg', 'textile_9_1.jpg,textile_9_2.jpg,textile_9_3.jpg', '	LOLOI', '[IN STOCK] EMORY EB 03 - SILVER (2 SIZE)', 790000, 0, 'LOLOI', '미국 (USA) / 터키 (Turkey)', '폴리프로필렌 (100% Polypropylene) / 황마 (Jute mesh)', '은색 (Silver)', '170,210,' );
+
+insert into product_su value ('', 3, 10, 'textile_10.jpg', 'textile_10_1.jpg,textile_10_2.jpg,textile_10_3.jpg', '	LOLOI', '[IN STOCK] JAVARI JV-01 IVORY / GRANITE (2 SIZE)', 790000, 0, 'LOLOI', '미국 (USA) / 터키 (Turkey)', '폴리에스테르 (Polyester) / 폴리프로필렌 (Polypropylene) / 황마 (Jute mesh)', '아이보리 (Ivory) / 그래니트 (Granite)', '170,210,' );
+
+///////////////////////////////////////////////////////////
+
+insert into product_su value ('', 4, 1, 'elec_1.jpg', 'elec_1_1.jpg', 'VIFA', 'HELSINKI - WILLOW GREEN', 580000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'WILLOW GREEN', '21,15.6,7' );
+
+insert into product_su value ('', 4, 2, 'elec_2.jpg', 'elec_1_1.jpg', 'VIFA', 'HELSINKI - SANDSTONE GREY', 580000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'SANDSTONE GREY', '21,15.6,7' );
+
+insert into product_su value ('', 4, 3, 'elec_3.jpg', 'elec_1_1.jpg', 'VIFA', 'HELSINKI - MISTY BLUE', 580000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'MISTY BLUE', '21,15.6,7' );
+
+insert into product_su value ('', 4, 4, 'elec_4.jpg', 'elec_1_1.jpg', 'VIFA', 'HELSINKI - DUSTY ROSE', 580000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'DUSTY ROSE', '21,15.6,7' );
+
+insert into product_su value ('', 4, 5, 'elec_5.jpg', 'elec_5_1.jpg', 'VIFA', 'REYKJAVIK - LAVASTONE BLACK', 290000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'LAVASTONE BLACK', '13.9,6.5,4' );
+
+insert into product_su value ('', 4, 6, 'elec_6.jpg', 'elec_5_1.jpg', 'VIFA', 'REYKJAVIK - ICE CAVE BLUE', 290000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'ICE CAVE BLUE', '13.9,6.5,4' );
+
+insert into product_su value ('', 4, 7, 'elec_7.jpg', 'elec_5_1.jpg', 'VIFA', 'REYKJAVIK - SANDSTONE GREY', 290000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'SANDSTONE GREY', '13.9,6.5,4' );
+
+insert into product_su value ('', 4, 8, 'elec_8.jpg', 'elec_8_1.jpg', 'VIFA', 'STOCKHOLM - SAND YELLOW', 2090000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'SAND YELLOW', '10.1,21.5,10' );
+
+insert into product_su value ('', 4, 9, 'elec_9.jpg', 'elec_8_1.jpg', 'VIFA', 'STOCKHOLM - SAND YELLOW', 2090000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'SAND YELLOW', '10.1,21.5,10' );
+
+insert into product_su value ('', 4, 10, 'elec_10.jpg', 'elec_8_1.jpg', 'VIFA', 'STOCKHOLM - SAND YELLOW', 2090000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'SAND YELLOW', '10.1,21.5,10' );
+
+insert into product_su value ('', 4, 11, 'elec_11.jpg', 'elec_8_1.jpg', 'VIFA', 'STOCKHOLM - SAND YELLOW', 2090000, 0, 'VIFA', '덴마크 (Denmark) / 중국 (China)', '프레임: 일체형 알루미늄 다이캐스팅<br>인클로우저: 강화 ABS 수지<br>그릴: 크바드라트(Kvadrat)사 주문형 직물 마감', 'SAND YELLOW', '10.1,21.5,10' );
+
+
+
+
+
+
+
+
+
+item_no: 1, 
+src: 'furniture_1.jpg', 
+deal_src: 'furniture_1_1, furniture_1_2, furniture_1_3, furniture_1_4', 
+brand: 'TECTA', 
+title: 'K1CS OBLIQUE COUCH TABLE - WHITE 125cm (바로배송)', 
+o_price: '3,280,000원', 
+s_price: [], 
+designer: 'Tecta,2005', 
+country: '독일 (Germany)', 
+material: '크롬 (Chromed tubular steel) / 라커드 우드 ( lacquered wood )', 
+color: '흰색 (White)', 
+size: '125,30,50' 
+
+
+
+
+
+<!-- 
+seqno: ??    
+item_no: 1, 
+src: 'furniture_1.jpg', 
+deal_src: 'furniture_1_1, furniture_1_2, furniture_1_3, furniture_1_4', 
+brand: 'TECTA', 
+title: 'K1CS OBLIQUE COUCH TABLE - WHITE 125cm (바로배송)', 
+o_price: '3,280,000원', 
+s_price: [], 
+designer: 'Tecta, 2005', 
+country: '독일 (Germany)', 
+material: '크롬 (Chromed tubular steel) / 라커드 우드 ( lacquered wood )', 
+color: '흰색 (White)', 
+size: '125, 30, 50' 
+
+-->
