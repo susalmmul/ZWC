@@ -1,0 +1,530 @@
+body {margin: 0; font-family: 'Noto Sans KR', sans-serif;}
+a {text-decoration: none; color: inherit;}
+h1, h2, h3, h4, h5, h6 {margin: 0;}
+.wrap {overflow-x: hidden;}
+.content_area {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+.flex_area {display: flex;}
+/* //////////////////////////////////////////////////////////////////// */
+
+/* 네비 */
+.nav_outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    right: 10px;
+    top: 10px;
+
+    transition: all 0.2s;
+
+    z-index: 999;
+}
+.nav_outer:hover {
+    transform: translate(-5px, 5px);
+    text-shadow: 4px 4px 5px #c3c3c3;
+}
+.nav_outer_active {
+    color: #fff;
+}
+.nav_outer .bracket {
+    font-weight: 700;
+    font-size: 30px;
+}
+.section_menu {
+    padding: 10px 20px;
+    font-size: 17px;
+    white-space: nowrap;
+} 
+
+/* 랜딩 섹션 */
+.randing {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+}
+.randing > .content_area {
+    align-items: center;
+}
+.cursor {
+    width: 2px;
+    height: 80%;
+    background-color: #000;
+    margin-left: 20px;
+
+    animation: cursor22 0.8s infinite; 
+}
+.ran_txt1 {
+    /* font-size: 320px; */
+    font-size: 17vmax;
+    font-family: 'D2Coding';
+}
+.ran_txt2 {
+    /* font-size: 450px; */
+    font-size: 24vmax;
+    font-style: italic;
+    white-space: nowrap;
+}
+.ran_txt3 {
+    font-size: 10vmax;
+    /* font-size: 205px; */
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 600;
+}
+.ran_txt2, .ran_txt3 {font-family: 'LeferiPoint-WhiteA';}
+.ran_txt3_size {
+    /* font-size: 165px; */
+    font-size: 8.5vmax;
+    text-align: center;
+}
+
+/* 인사 부분 */
+
+.hello {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    
+    position: relative;
+}
+.hell_txt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: all 0.5s;
+    
+    font-size: 50px;
+}
+.hell_txt span {
+    font-size: 53px;
+    font-weight: 700;
+}
+.hell_txt_up {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+
+/* 저는요 */
+.about {
+    width: 100%;
+    padding: 0 200px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+.about > .sec_title {
+    text-align: center;
+}
+.sec_title {
+    padding-left: 20px;
+    font-size: 40px;
+
+    z-index: 9999;
+}
+.sub_title {
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.im_box {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/* 
+    overflow: hidden; */
+}
+.parentheses {
+    position: absolute;
+    top: 25%;
+
+    font-size: 600px;
+    font-weight: 100;
+
+    line-height: 600px;
+    
+}
+.parentheses_l {
+    left: -20px;
+}
+.parentheses_r {
+    right: 20px;
+}
+.info_box {
+    width: 40%;
+}
+.pic_box {
+    width: 30%;
+}
+.pic_box img {
+    max-height: 700px;
+    transform: translateX(-40px);
+}
+.info_dsc  {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info_txt {
+    /* width: 40%; */
+    font-size: 15px;
+    font-weight: 400;
+
+    margin: 10px 0 20px;
+    line-height: 30px;
+}
+.info_dsc .info_txt {
+    width: 100%;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.info_title {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* 스킬 */
+.skill .flex_area {
+    padding: 40px 20px;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skill .content_area {
+    padding-top: 450px;
+}
+.skill .sub_title {
+    font-size: 35px;
+}
+.sub_title > span {
+    font-weight: 500;
+    font-size: 40px;
+}
+.skill_box {
+    padding: 20px 0;
+
+    width: calc((100% - 20px * 2) / 3); 
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 2px rgba(154, 154, 154, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.skill_gauge_box {
+    /* width: 202px;
+    height: 202px; */
+    position: relative;
+
+    /* padding: 10px; */
+
+}
+.skill_gauge {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+
+    border: 2px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.skill_box canvas { 
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* border: 10px solid; */
+    /* border-radius: 50%; */
+}
+
+
+.skill_title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill_dsc {
+    font-size: 15px;
+    font-weight: 200;
+    color: #aaa;
+
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+/* 포트폴리오 */
+.portfolio {
+    padding-top: 400px;
+}
+.portfolio .sub_title {
+    text-align: center;
+}
+.port_box {
+    padding-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transform: translateY(50%);
+    transition: all 0.3s;
+
+    opacity: 0;
+}
+.port_title {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 50px;
+    
+    text-align: center;
+}
+.port_title span {
+    font-size: 20px;
+}
+.go_site_btn {
+    display: inline-block;
+
+    margin-top: 25px;
+    padding: 5px 20px;
+
+    border-radius: 20px;
+    box-shadow: 0 0 3px 2px rgba(154, 154, 154, 0.3);
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.port_img {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    padding: 50px 0;
+}
+.port_img img {
+    transform: translateX(-80px);
+}
+.v_line {
+    width: 1px;
+    height: 50px;
+    background-color: gray;
+}
+
+.port_dsc_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+}
+.port_dsc:nth-child(2) .info_txt {white-space: nowrap;}
+.port_dsc {width: 50%;}
+.port_dsc .info_txt {
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.port_dsc:last-child .info_txt {
+    text-align: justify;
+}
+.info_txt span {
+    padding: 0 20px;
+}
+
+/* 다른 포트폴리오 */
+.other_portfoilo .content_area {
+    padding-top: 400px;
+}
+.o_pf_show_more {
+    font-size: 15px;
+    color: #c3c3c3;
+}
+.skill_sort {
+    width: 200px;
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    position: fixed;
+    top: 200px;
+    left: 55px;
+    z-index: 9999;
+}
+.o_pf_skill {
+    display: none;
+    
+    padding: 10px;
+    z-index: 999;
+}
+.o_pf_skill > .info_title > span {
+    font-size: 17px;
+    line-height: 25px;
+}
+.o_pf_skill > .info_txt {
+    font-size: 14px;
+    line-height: 25px;
+}
+.other_pf_active {
+    width: 95%;
+
+    position: fixed;
+    top: 50px;
+    left: calc(50% + 10px);
+
+    color: #fff;
+    transform: translateX(-50%);
+}
+.other_p_l, .other_p_r {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+.other_p_r {
+    align-items : start;
+}
+.other_p_l{
+    align-items : end;
+    text-align: right;
+}
+.other_p_box {
+    width: 450px;
+    height: 450px;
+
+    overflow: hidden;
+    overflow-y: hidden;
+    
+    white-space: nowrap;
+
+    transition: all 0.5s;
+
+    font-size: 0;
+}
+.other_p_box img {
+    height: 100%;
+
+    margin: 0 5px;
+}
+.other_p_box + input {display: none;}
+
+.l_p_box1 {
+    margin-top: 300px;
+}
+.l_p_box2 {
+    margin-top: calc(450px);
+}
+.l_p_box3 {
+    margin-top: calc(450px);
+    
+    position: relative;
+}
+.l_p_box3 .go_site_btn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    
+    font-size: 14px;
+    font-weight: 700;
+
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.4);
+
+    transition: color 0.3s;
+}
+.l_p_box3 .go_site_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.r_p_box1 {
+    margin-top: calc(300px + 450px);
+}
+.r_p_box2 {
+    margin-top: calc(450px);
+}
+
+/* 컨텍트 부분 */
+.contact .cursor {
+    width: 2px;
+    height: 30px;
+    background-color: #000;
+
+    animation: cursor22 0.8s infinite; 
+}
+.contact .content_area {
+    padding: 400px 0 100px;
+}
+.contact .hell_txt {
+    white-space: nowrap;
+    text-align: center;
+}
+.contact .cursor {
+    animation: cursor22;
+}
+.contact_box {
+    gap: 20px;
+    padding-top: 600px;
+
+    justify-content: center;
+}
+.contact_link {
+    display: inline-block;
+    
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+    border-radius: 20px;
+    box-shadow: 0 0 3px 2px rgba(154, 154, 154, 0.3);
+}
+.contact_info {
+    font-size: 50px;
+    /* font-weight: 700; */
+    font-family: 'LeferiPoint-WhiteA';
+}
+.contact .port_title {
+    padding: 50px 0;
+}
+.contact_link:nth-child(2) .contact_info, .contact_link:nth-child(3) .contact_info {line-height: 70px;}
+
+
+
+
+
+
+/* 커서 애니메이션 */
+@keyframes cursor22 {
+    0% { opacity: 0;}
+    50% { opacity: 0;}
+    51% { opacity: 1;}
+    100% { opacity: 1;}
+}

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹퍼블리셔 김수연</title>
+
+    <style>
+        /* 얇은 괄호 부분 */
+        @font-face {
+            font-family: 'D2Coding';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'LeferiPoint-WhiteA';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+
+    <!-- 본문 폰트  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="portfolio.css">
+
+    <script defer src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script defer src="portfolio.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+    <div id="top"></div>
+    <!-- 네비 -->
+    <div class="nav_outer">
+        <div class="bracket">[</div>
+        <a href="#top" class="section_menu">top</a>
+        <a href="#about" class="section_menu">about me</a>
+        <a href="#skill" class="section_menu">skill</a>
+        <a href="#portfolio" class="section_menu">portfolio</a>
+        <a href="#contact" class="section_menu">contact</a>
+        <div class="bracket">]</div>
+    </div>
+
+    <!-- 랜딩 -->
+    <div class="randing">
+        <div class="content_area flex_area">
+            <div class="ran_txt ran_txt1"></div>
+            <div class="ran_txt ran_txt2"></div>
+            <div class="ran_txt ran_txt3"></div>
+            <div class="cursor"></div>
+        </div>
+    </div>
+
+    <!-- 인사 -->
+    <div class="hello">
+        <div class="hell_txt">
+            안녕하세요.<br>
+            <span>[ 창의력, 책임감, 협동심 ]</span>있는<br>
+            <span>웹 퍼블리셔 김수연</span>입니다.
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="sec_title">저는요.
+            <div class="sub_title">[ 창의력, 책임감, 협동심 ]</div>
+        </div>
+        <div class="im_box">
+            <div class="parentheses parentheses_l">(</div>
+            <div class="info_box">
+                <h2 class="name">김수연 입니다.</h2>
+                <div class="detail_info">
+                    <div class="info_txt">
+                        1994. 3. 13<br>
+                        010 3171 9868<br>
+                        경기도 부천시 송내동
+                    </div>
+                    <div class="info_title">EDUCATION</div>
+                    <div class="info_txt">
+                        2022. 06 웹디자인 / 웹 퍼블리셔 과정 수료<br>
+                        2015. 02 연성대학교 시각디자인과 졸업<br>
+                        2013. 02 광명고등학교 자연과학계열 졸업
+                    </div>
+                    <div class="info_title">CAREER</div>
+                    <div class="info_txt">
+                        2021. 07 - 10<br>
+                        레시피 그룹 / 브랜드 콘텐츠 디자인<br>
+                        2018. 04 - 08<br>
+                        MCN 예엔터테인먼트 / 디자인 담당<br>
+                        2015. 02 - 09<br>
+                        인쇄 업체 세븐센스 / 기초 디자인 담당
+                    </div>
+                    <div class="info_title">LICENSE &amp; ATIVITIES</div>
+                    <div class="info_txt">
+                        2013. 05<br>
+                        포토샵 GTQ 1, 2급<br>
+                        2013. 12<br>
+                        운전면허 2종 보통 취득<br>
+                        <!-- 2019. 12<br>
+                        YCK VERY CHRISTMAS 참가 / 디노마드 주최<br>
+                        2019. 11<br>
+                        소소시장 참가 / 세종 문화회관 주최<br>
+                        2014. 05<br>
+                        YCK VERY GOODS 참가/ 디노마드 주최 전시 <br> -->
+                        2014. 05<br>
+                        관악 현대 공예 &amp; 디자인 대전 / 입선
+                    </div>
+                </div>
+            </div>
+            <div class="pic_box">
+                <img src="img/portfolio/about_img.gif" alt="포트폴리오">
+            </div>
+            <div class="info_dsc">
+                <div class="info_title">김수연[0] // 창의력</div>
+                <div class="info_txt">
+                    '어떻게 하면'과 '왜'는 제게서 떼려야 뗄 수 없는 것이에요.<br>그런 속성들이 구현할 수 있는 것은 물론이고, 구현하고 싶은 것을 꼭 구현할 수 있게 해요.<br>그러다 보니 조금은 다른 결과들이 쌓일 수 있었어요.<br>구상하고 실현시키는 동안 괴롭긴 해도, 지나고 보면 뿌듯하고 재밌습니다.<br>이런 제 모습, 약간 변태 같나요?
+                </div>
+                <div class="info_title">김수연[1] // 책임감</div>
+                <div class="info_txt">
+                    소속감을 좋아해요. 그리고 그 안에서 제 역할이 있는 것을 좋아하고요.<br>그러려면 책임감이 필수 요소죠!<br>팀 내에서 스스로는 어떤 위치에 있고, 어떤 역할인지, 그래서 어떤 일을 해야 하는지 캐치를 잘 해요.<br>그렇게 맡은 일은 거짓 없이 해내며 자기 효능감을 얻어요.<br>인정 욕구도 한몫하는 것 같아요.
+                </div>
+                <div class="info_title">김수연[2] // 협동심</div>
+                <div class="info_txt">
+                    힘을 합쳐 뭔가를 이뤄내는 걸 좋아해요. 같이의 가치를 믿어요.<br>사람마다 각기 다른 속성을 가지고 모여 상호 보완 가능하며,<br>롱런할 수 있다는 점이 강력한 매력이라고 생각해요.<br>그를 지속하기 위해 이끌어가는 사람에겐 힘을 실어주고, 쉬이 쳐지는 사람에겐 기다려줄 줄 아는 사람이 되려고 노력해요.
+                </div>
+                <div class="v_line"></div>
+                <a href="./웹퍼블리셔_김수연_이력서.pdf" class="go_site_btn" target="_blank">이력서 더보기 →</a>
+            </div>
+            
+            <div class="parentheses parentheses_r">)</div>
+        </div>
+    </div>
+<!-- 스킬 -->
+    <div class="skill" id="skill">
+        <div class="content_area">
+            <div class="sec_title">이런 툴은 이만큼 다뤄요.
+                <h2 class="sub_title">function( <span> SKILL </span> )</h2>
+            </div>
+            <div class="flex_area"> 
+                <div class="skill_box">
+                    <!-- <div class="skill_gauge">85%</div> -->
+                    <div class="skill_gauge_box">
+                        <div class="skill_gauge">90%</div>
+                        <canvas id="canvas" class="" width="220" height="220"></canvas>
+                    </div>
+                    
+                    <div class="skill_title">JAVASCRIPT, JQUERY</div>
+                    <div class="skill_dsc">함수, 조건문, 반복문 등을 활용하여 홈페이지에서 흔히 사용되는 자동 슬라이드 배너, 스크롤 이벤트와 같은 기능 구현이 가능해요.</div>
+                </div>
+                <div class="skill_box">
+                    <!-- <div class="skill_gauge">90%</div> -->
+                    <div class="skill_gauge_box">
+                        <div class="skill_gauge">90%</div>
+                        <canvas id="canvas1" class="" width="220" height="220"></canvas>
+                    </div>
+                    <div class="skill_title">HTML</div>
+                    <div class="skill_dsc">
+                        웹 표준을 준수하며 javascript나 css의 기능 적용까지 고려하여 효율적인 퍼블리싱을 하고자 해요.</div>
+                </div>
+                <div class="skill_box">
+                    <!-- <div class="skill_gauge">85%</div> -->
+                    <div class="skill_gauge_box">
+                        <div class="skill_gauge">90%</div>
+                        <canvas id="canvas2" class="" width="220" height="220"></canvas>
+                    </div>
+                    <div class="skill_title">CSS</div>
+                    <div class="skill_dsc">각각의 스타일 속성들을 이해하고 활용하며 기획한 웹 시안을 충분히 구현할 수 있어요.</div>
+                </div>
+                <div class="skill_box">
+                    <!-- <div class="skill_gauge">95&</div> -->
+                    <div class="skill_gauge_box">
+                        <div class="skill_gauge">95%</div>
+                        <canvas id="canvas3" class="" width="220" height="220"></canvas>
+                    </div>
+                    <div class="skill_title">Ps</div>
+                    <div class="skill_dsc">직접 디자인은 물론이고, 사진 보정, 합성과 배너 제작, 컨텐츠 제작 등 기획된 시안에 맞춰 그래픽 작업을 할 수 있어요.</div>
+                </div>
+                <div class="skill_box">
+                    <!-- <div class="skill_gauge">95%</div> -->
+                    <div class="skill_gauge_box">
+                        <div class="skill_gauge">95%</div>
+                        <canvas id="canvas4" class="" width="220" height="220"></canvas>
+                    </div>
+                    <div class="skill_title">Ai</div>
+                    <div class="skill_dsc">펜툴 활용에 능하고, 캐릭터 및 로고 같은 벡터 이미지 제작을 할 수 있어요. 인쇄를 위한 칼선 작업 경험도 있어요.</div>
+                </div>
+                <div class="skill_box">
+                    <!-- <div class="skill_gauge">60%</div> -->
+                    <div class="skill_gauge_box">
+                        <div class="skill_gauge">60%</div>
+                        <canvas id="canvas5" class="" width="220" height="220"></canvas>
+                    </div>
+                    <div class="skill_title">Ae</div>
+                    <div class="skill_dsc">간단한 편집이 가능하고요, 모션도 줄 수 있어요.</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 포트폴리오 -->
+    <div class="portfolio" id="portfolio">
+        <div class="content_area">
+            <div class="sec_title">제 포트폴리오예요.</div>
+
+<!-- 첫번째 포트폴리오 -->
+            <div class="port_box">
+                <div class="sub_title">가상 사이트
+                    <div class="port_title">
+                        <span> ( </span> ZEROWASTE CLUB <span> ) </span>
+                    </div>
+                    <a href="https://susalmmul.github.io/ZWC/제로웨이스트_클럽/index.html" class="go_site_btn"  target="_blank">GO SITE →</a>
+                </div>
+                <div class="port_img">
+                    <img src="./img/portfolio/zwc_mockup.png" alt="제로웨이스트 사이트">
+                    <div class="v_line"></div>
+                    <div class="port_dsc_box">
+                        <div class="port_dsc">
+                            <div class="info_title go_site_btn ">VIEWPORT</div>
+                            <div class="info_txt">
+                                <span> 데스크 탑 </span> / 
+                                <span> 모바일 </span>
+                            </div>
+                        </div>
+                        <div class="port_dsc">
+                            <div class="info_title go_site_btn">SKILL</div>
+                            <div class="info_txt">
+                                <span>HTML</span> / 
+                                <span>CSS</span> / 
+                                <span>JAVASCRIPT</span> / 
+                                <span>JQUERY</span>
+                            </div>
+                        </div>
+                        <div class="port_dsc">
+                            <div class="info_title go_site_btn">DESCRIPTION</div>
+                            <div class="info_txt">
+                                제로웨이스트를 기반으로 활동하는 가상 브랜드 사이트를 제작했습니다.<br>
+                                사이트 컨셉을 직관적으로 기획하여 쉽게 이용할 수 있도록 제작했으며, 모바일 버전의 grwz섹션은 각 기기들의 뷰포트가 다른점을 고려하여 미디어쿼리를 이용하여 반응형으로 제작했습니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- 두번째 포트폴리오 -->
+            <!-- <div class="port_box">
+                <h3 class="sub_title">가상 사이트
+                    <h1 class="port_title">
+                        <span> ( </span> ZEROWASTE CLUB <span> ) </span>
+                    </h1>
+                    <a href="" class="go_site_btn">GO SITE →</a>
+                </h3>
+                <div class="port_img">
+                    <img src="./img/portfolio/zwc_mockup.png" alt="제로웨이스트 사이트">
+                    <div class="v_line"></div>
+                    <div class="port_dsc_box">
+                        <div class="port_dsc">
+                            <div class="info_title go_site_btn ">VIEWPORT</div>
+                            <div class="info_txt">
+                                <span> 데스크 탑 </span> / 
+                                <span> 모바일 </span>
+                            </div>
+                        </div>
+                        <div class="port_dsc">
+                            <div class="info_title go_site_btn">SKILL</div>
+                            <div class="info_txt">
+                                <span>HTML</span> / 
+                                <span>CSS</span> / 
+                                <span>JAVASCRIPT</span> / 
+                                <span>JQUERY</span>
+                            </div>
+                        </div>
+                        <div class="port_dsc">
+                            <div class="info_title go_site_btn">DESCRIPTION</div>
+                            <div class="info_txt">
+                                어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.어떤 이유로 어떻게 만들었습니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    
+<!-- 다른 포트폴리오 -->
+    <div class="other_portfoilo">
+        <div class="content_area">
+            <div class="sec_title" id="fixed_title">이<br>외에도 ( · · · ) <a href="./디자이너_김수연_포트폴리오.pdf" class="o_pf_show_more" target="_blank"> 더보기 <span>click!</span> </a></div>
+            <div class="skill_sort">
+
+                <div class="o_pf_skill">
+                    <div class="info_title">
+                        skill / <span> Photoshop</span>
+                        <br>SQURE TYPE POSTER
+                    </div>
+                    <div class="info_txt">
+                        100% 개인 작업<br>
+                        블루라이트의 유해성을 과장하여 공포 마케팅에 활용하는 것을 시사하는 포스터입니다.
+                    </div>
+                </div>
+
+                <div class="o_pf_skill">
+                    <div class="info_title">
+                        skill / <span> Photoshop</span>
+                        <br>G/FORE SNS CONTENTS
+                    </div>
+                    <div class="info_txt">
+                        디자인 기여도 90%<br>
+                        골프 웨어 브랜드 G/FORE의 SNS 콘텐츠 디자인을 했습니다.
+                    </div>
+                </div>
+
+                <div class="o_pf_skill">
+                    <div class="info_title">
+                        skill / <span> Illustrator</span>
+                        <br>CRAFTONE BANNER
+                    </div>
+                    <div class="info_txt">
+                        기여도 100%<br>
+                        맥주를 직접 양조하여 유통하는 크래프트 원의 배너를 제작했습니다. 자가 양조한 맥주들의 역사를 일러스트로 표현했습니다.
+                    </div>
+                </div>
+
+                <div class="o_pf_skill">
+                    <div class="info_title">
+                        skill / <span> Photoshop / Illustrator</span>
+                        <br>아음 브랜딩
+                    </div>
+                    <div class="info_txt">
+                        100% 개인 작업<br>
+                        가상 명상 브랜드 컨셉으로 기획과 디자인 작업했습니다.
+                    </div>
+                </div>
+
+                <div class="o_pf_skill">
+                    <div class="info_title">
+                        skill / <span> Illustrator / After Effect</span>
+                        <br>YELLOW HEART COVER ANIMATION
+                    </div>
+                    <div class="info_txt">
+                        기여도 100%<br>
+                        뮤지션 키츠의 YELLOW HEART 커버 관련 애니메이션을 제작했습니다.
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex_area">
+                <div class="other_p_l">
+                    <div class="other_p_box l_p_box1">
+                        <img src="./img/o_portfolio/o_portfolio_2.png" alt="포트폴리오">
+                    </div>
+                    <input type="text" value="0">
+                    
+                    <div class="other_p_box l_p_box2">
+                        <img src="./img/o_portfolio/o_portfolio_4.png" alt="포트폴리오">
+                        <img src="./img/o_portfolio/o_portfolio_4_2.png" alt="포트폴리오">
+                    </div>
+                    <input type="text" value="2">
+
+                    <div class="other_p_box l_p_box3">
+                        <img src="./img/o_portfolio/o_portfolio_5.png" alt="포트폴리오">
+                        
+                        <a href="https://www.youtube.com/watch?v=4YKvC_XT5lo" class="go_site_btn">GO YOUTUBE →</a>
+                    </div>
+                    <input type="text" value="4">
+
+                </div>
+                <div class="other_p_r">
+                    <div class="other_p_box r_p_box1">
+                        <img src="./img/o_portfolio/o_portfolio_1.png" alt="포트폴리오">
+                        <img src="./img/o_portfolio/o_portfolio_1_2.png" alt="포트폴리오">
+                        <!-- <img src="./img/o_portfolio/o_portfolio_1_3.png" alt="포트폴리오">
+                        <img src="./img/o_portfolio/o_portfolio_1_4.png" alt="포트폴리오"> -->
+                    </div>
+                    <input type="text" value="1">
+
+                    <div class="other_p_box r_p_box2">
+                        <img src="./img/o_portfolio/o_portfolio_3.png" alt="포트폴리오">
+                        <img src="./img/o_portfolio/o_portfolio_3_2.png" alt="포트폴리오">
+                    </div>
+                    <input type="text" value="3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="content_area">
+            <div class="hell_txt">
+                끝까지 봐주셔서 감사합니다.<br>
+                고민은 <span>[ 창의력, 책임감, 협동심 ]</span>있는<br>
+                <span>웹 퍼블리셔 김수연</span>만 놓칠뿐 . . . 
+                    <!-- <div class="cursor"></div> -->
+            </div>
+            <div class="contact_box flex_area">
+                <a href="mailto:9868ksy@naver.com" class="contact_link" target="_blank">
+                    <div class="info_title go_site_btn">
+                        <span>(</span>e-mail<span>) → </span>
+                    </div>
+                    <div class="contact_info port_title">
+                        9868ksy<br>@naver<br>.com
+                    </div>
+                </a>
+
+                <a href="https://open.kakao.com/o/s7Lxh5ge" class="contact_link" target="_blank">
+                    <div class="info_title go_site_btn">
+                        <span>(</span>KakaoTalk<span>) → </span>
+                    </div>
+                    <div class="contact_info port_title">
+                        OPEN<br>CHAT
+                    </div>
+                </a>
+
+                <a href="./웹퍼블리셔_김수연_이력서.pdf" class="contact_link" download="">
+                    <div class="info_title go_site_btn">
+                        <span>(</span>more info<span>) → </span>
+                    </div>
+                    <div class="contact_info port_title">
+                        RESUME<br>MORE
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
