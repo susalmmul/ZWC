@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     width: 30%;
 }
 .pic_box img {
-    width: 100%;
+    max-height: 700px;
     transform: translateX(-40px);
 }
 .info_dsc  {
@@ -194,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {margin: 0;}
     line-height: 30px;
 }
 .info_dsc .info_txt {
+    width: 100%;
     line-height: 25px;
     text-align: justify;
 }
