@@ -12,15 +12,40 @@ $('.prev_btn').click(function(){
     cur_mini_bn -=1;
 });
 
-// 이미지 불러오기,,
-for (let i = 0; i < 4; i++){
-    let list = '';
-    for (let j = 0; j < 6; j++){
-        list += `<img src="img/welcome_page/${get_id(i)}/${get_id(i)}_${j}.png" alt="${get_id(i)}">`
-    }
-    $('.mini_funi').eq(i).append(list)
-}
 
-function get_id(id) {
-    return $('.mini_funi').eq(id).attr('id')
-}
+// mini_furniture 클릭하면 가구 appned.
+
+let area = '';
+let funi_title = '';
+let img_src = '';
+
+$('.mini_img').click(function(){
+    area = $(this).parent().attr('id');
+    funi_title = $(this).attr('alt');
+    img_src = $(this).attr('src');
+
+    $.ajax({
+        url: "db/index.php", //html기준 파일 경로
+        data: { _title: funi_title },
+        type: 'GET',
+        dataType: "json",
+        success: function(data) {
+            console.log(data)
+            
+            let link = `
+            <a href="./deal.html?cate=${data.cate}&item_no=${data.item_no}" class="deal_link">
+                <div class="deal_name">${data.title}</div>
+                <img src="${img_src}" alt="${data.title}" class="deal_img">
+                <div class="x_btn">X</div>
+            </a>
+            `
+            
+            $(`.${area}_area`).append(link)
+        },
+        error: function(){ 
+            // db 못 다녀왔을때
+            console.log('에러')
+        }
+    });
+
+});

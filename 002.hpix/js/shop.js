@@ -37,11 +37,10 @@ $.ajax({
                 $('.shop_box').append(list)
             }
         }
-
         
     function o_price(num){
         if(num > 0 ){
-            return (num)
+            return (Number(num))
         }
         else {
             return ('도산점 문의')
