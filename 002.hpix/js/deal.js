@@ -1,3 +1,8 @@
+let cate = get_url_info("cate");
+let folder = get_url_info("item_no");
+
+// 교환 환불 안내 동의
+
 let agree_chk = true;
 
 $('.agree_chk').click(function(){
@@ -16,7 +21,7 @@ $('.agree_chk').click(function(){
 });
 
 $.ajax({
-    url: "db/index2.php",
+    url: "db/deal.php",
     data: { __cate: 0 },
     type: 'GET',
     dataType: "json",

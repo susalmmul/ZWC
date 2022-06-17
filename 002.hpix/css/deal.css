@@ -7,13 +7,17 @@
     width: 60%;
     float: left;
 
-    background: pink;
+    /* background: pink; */
+    font-size: 0;
+}
+.item_img_box img {
+    width: 100%;
+
 }
 
 .deal_box {
     width: 40%;
     height: calc(100vh - 40px);
-    /* border-left: 0.5px solid; */
     box-shadow: 0 0 2px 2px rgba(161, 161, 161, 0.3);
     position: fixed;
     right: 0%;
@@ -21,9 +25,24 @@
     font-size: 15px;
     /* background-color: royalblue; */
 
-    padding: 80px;
+    padding: 50px 70px;
     box-sizing: border-box;
     color: rgb(80, 80, 80);
+    overflow-y: scroll;
+}
+.deal_box::-webkit-scrollbar {
+    /* opacity: 0; */
+    width: 3px;
+}
+.deal_box::-webkit-scrollbar-thumb {
+    width: 2px;
+    border-radius: 1px;
+    color: #000;
+}
+.deal_box::-webkit-scrollbar-track {
+    width: 3px;
+    background: #fff;
+    box-shadow: rgba(55, 55, 55, 0.3);
 }
 .brand_name {
     display: inline-block;
@@ -88,7 +107,6 @@
 }
 .qty_box {
     display: flex;
-    margin-bottom: 20px;
 }
 .qty_btn, .qty {
     width: 30px;

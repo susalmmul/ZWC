@@ -20,8 +20,9 @@
             
             $result = mysqli_query($conn, $sql);
 
-            while($row = mysqli_fetch_array($result)) { 
-                $arr[] = array(
+            while($row = mysqli_fetch_array($result)) {
+                $j = 0; 
+                $data[$i][$j] = array(
                     "seqno"=> $row['seqno'],
                     "cate"=> $row["cate"],
                     "item_no"=> $row["item_no"],
@@ -36,14 +37,13 @@
                     "material"=> $row["material"],
                     "sql"=>$sql
                 );
+                $j++;
             };
-            $data[$i] = $arr;
-            unset($arr);
         };
         
         mysqli_close($conn);
         echo json_encode($data);
-    }
+    };
     else {
         $sql="select * from product_su where cate=$cate"; 
         
@@ -74,3 +74,15 @@
     };
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
